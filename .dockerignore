@@ -1,0 +1,61 @@
+# Node modules and frontend files (not needed for backend)
+node_modules/
+src/
+public/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md
+*.txt
+!requirements.txt
+
+# Build files
+vite.config.js
+tailwind.config.js
+postcss.config.js
+package.json
+package-lock.json
+jsconfig.json
+components.json
+index.html
+
+# Logs
+*.log
+logs/
+
+# Test files
+tests/
+*.test.js
+*.spec.js
